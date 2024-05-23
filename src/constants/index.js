@@ -238,7 +238,7 @@ export const projects = [
     name: "Augmented reality with IOT",
     description:
       "Developed an AR android app, through which we can place digital objects which can control Real IOT devices",
-    link: "https://github.com/adrianhajdin/projects_realestate",
+    link: "https://github.com/zenoscode/activity-tracker",
   },
   //   {
   //     iconUrl: summiz,
