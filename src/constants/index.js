@@ -250,6 +250,13 @@ export const projects = [
     link: "https://hengyoon.gosolutions.sg/",
   },
   {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Tech shopping site with AI chatbot",
+    description: "Developed a shopping site as per client requirements",
+    link: "https://github.com/binarycombinatrix/multisys",
+  },
+  {
     iconUrl: snapgram,
     theme: "btn-back-pink",
     name: "Full Stack Instagram Clone",
