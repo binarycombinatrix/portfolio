@@ -6,5 +6,16 @@ import tesla from "./tesla.png";
 import logo from "./logo.svg";
 import fondesk from "./fondesk.png";
 import cybercom from "./cybercom.png";
+import mayash from "./mayashsvg.svg";
 
-export { hero, meta, shopify, starbucks, tesla, logo, cybercom, fondesk };
+export {
+  hero,
+  meta,
+  shopify,
+  starbucks,
+  tesla,
+  logo,
+  cybercom,
+  fondesk,
+  mayash,
+};

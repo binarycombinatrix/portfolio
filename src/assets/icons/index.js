@@ -27,6 +27,10 @@ import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import hengyoon from "./hengyoon.png";
+import PostgreSQL from "./PostgreSQL.svg";
+import GraphQL from "./GraphQL.svg";
+import firebase from "./firebase.svg";
+import googlecloud from "./google-cloud.svg";
 
 export {
   css,
@@ -58,4 +62,8 @@ export {
   soundon,
   soundoff,
   hengyoon,
+  PostgreSQL,
+  GraphQL,
+  firebase,
+  googlecloud,
 };

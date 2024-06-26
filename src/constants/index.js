@@ -5,6 +5,7 @@ import {
   tesla,
   cybercom,
   fondesk,
+  mayash,
 } from "../assets/images";
 import {
   car,
@@ -32,6 +33,10 @@ import {
   tailwindcss,
   threads,
   typescript,
+  PostgreSQL,
+  GraphQL,
+  firebase,
+  googlecloud,
 } from "../assets/icons";
 
 export const skills = [
@@ -56,6 +61,16 @@ export const skills = [
     type: "Database",
   },
   {
+    imageUrl: PostgreSQL,
+    name: "PostgressSQL",
+    type: "Database",
+  },
+  {
+    imageUrl: GraphQL,
+    name: "GraphQL",
+    type: "Database",
+  },
+  {
     imageUrl: nodejs,
     name: "Node.js",
     type: "Backend",
@@ -63,6 +78,16 @@ export const skills = [
   {
     imageUrl: express,
     name: "Express",
+    type: "Backend",
+  },
+  {
+    imageUrl: firebase,
+    name: "Firebase",
+    type: "Backend",
+  },
+  {
+    imageUrl: googlecloud,
+    name: "GoogleCloud",
     type: "Backend",
   },
   {
@@ -107,11 +132,11 @@ export const skills = [
   //     name: "Sass",
   //     type: "Frontend",
   //   },
-  //   {
-  //     imageUrl: tailwindcss,
-  //     name: "Tailwind CSS",
-  //     type: "Frontend",
-  //   },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
   {
     imageUrl: typescript,
     name: "TypeScript",
@@ -138,7 +163,7 @@ export const experiences = [
     company_name: "Cybercom",
     icon: cybercom,
     iconBg: "#fbc3bc",
-    date: "Sept 2020 - March 2022",
+    date: "Sept 2020 - April 2022",
     points: [
       "POS-PWA: Worked on a progressive web app for shopping",
       "Using: React,Redux,NextJS, third party components",
@@ -154,19 +179,19 @@ export const experiences = [
       "Serverless: made queries to firestore from react",
     ],
   },
-  //   {
-  //     title: "Web Developer",
-  //     company_name: "Shopify",
-  //     icon: shopify,
-  //     iconBg: "#b7e4c7",
-  //     date: "Jan 2022 - Jan 2023",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
+  {
+    title: "Freelance Web Developer",
+    company_name: "Kravin, Mayash Foundation",
+    icon: mayash,
+    iconBg: "#b7e4c7",
+    date: "April 2022 - current",
+    points: [
+      "Shopping app: Shopping app as per figma design using NextJS,PayloadCMS and stripe.",
+      "Kravin: Added several features using graphQL in react",
+      "Mayash Foundation: Connected to apis added logic to frontend",
+      "Worked with different teams, made end to end applications or added features as per requirements",
+    ],
+  },
   //   {
   //     title: "Full stack Developer",
   //     company_name: "Meta",
