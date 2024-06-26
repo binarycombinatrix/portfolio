@@ -21,7 +21,7 @@ const HomeInfo = ({ currentStage }) => {
           way
         </p>
 
-        <Link to="/about" className="neo-brutalism-white neo-btn">
+        <Link to="/portfolio/about" className="neo-brutalism-white neo-btn">
           Learn more
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
@@ -37,7 +37,7 @@ const HomeInfo = ({ currentStage }) => {
           the impact?
         </p>
 
-        <Link to="/projects" className="neo-brutalism-white neo-btn">
+        <Link to="/portfolio/projects" className="neo-brutalism-white neo-btn">
           Visit my portfolio
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
@@ -53,7 +53,7 @@ const HomeInfo = ({ currentStage }) => {
           keystrokes away
         </p>
 
-        <Link to="/contact" className="neo-brutalism-white neo-btn">
+        <Link to="/portfolio/contact" className="neo-brutalism-white neo-btn">
           Let's talk
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
