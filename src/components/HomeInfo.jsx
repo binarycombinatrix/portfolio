@@ -1,22 +1,22 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
-import { arrow } from "../assets/icons";
+import { arrow } from "../assets/icons"
 
 const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
-      <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
+      <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 mx-5">
         Hi, I'm
-        <span className="font-semibold mx-2 text-white">Raj</span>
+        <span className="font-semibold mx-2">Raj</span>
         👋
         <br />A Software Engineer from India
       </h1>
-    );
+    )
 
   if (currentStage === 2) {
     return (
       <div className="info-box">
-        <p className="font-medium sm:text-xl text-center">
+        <p className="sm:text-xl text-center">
           Worked with many companies <br /> and picked up many skills along the
           way
         </p>
@@ -26,13 +26,13 @@ const HomeInfo = ({ currentStage }) => {
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
-    );
+    )
   }
 
   if (currentStage === 3) {
     return (
       <div className="info-box">
-        <p className="font-medium text-center sm:text-xl">
+        <p className="text-center sm:text-xl">
           Led multiple projects to success over the years. <br /> Curious about
           the impact?
         </p>
@@ -42,13 +42,13 @@ const HomeInfo = ({ currentStage }) => {
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
-    );
+    )
   }
 
   if (currentStage === 4) {
     return (
       <div className="info-box">
-        <p className="font-medium sm:text-xl text-center">
+        <p className=" sm:text-xl text-center">
           Need a project done or looking for a dev? <br /> I'm just a few
           keystrokes away
         </p>
@@ -58,10 +58,10 @@ const HomeInfo = ({ currentStage }) => {
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
-    );
+    )
   }
 
-  return null;
-};
+  return null
+}
 
-export default HomeInfo;
+export default HomeInfo
