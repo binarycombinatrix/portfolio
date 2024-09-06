@@ -1,6 +1,6 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom"
 
-import { logo } from "../assets/images";
+import { logo } from "../assets/images"
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
         <NavLink
           to="/portfolio/about"
           className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
+            (isActive ? "text-blue-600" : "text-[#5df542]") + " font-extrabold"
           }
         >
           About
@@ -24,14 +24,14 @@ const Navbar = () => {
         <NavLink
           to="/portfolio/projects"
           className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
+            (isActive ? "text-blue-600" : "text-[#5df542]") + " font-extrabold"
           }
         >
           Projects
         </NavLink>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar
