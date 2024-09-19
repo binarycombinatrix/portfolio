@@ -6,7 +6,9 @@ import {
   cybercom,
   fondesk,
   mayash,
-} from "../assets/images";
+  span,
+  food,
+} from "../assets/images"
 import {
   car,
   contact,
@@ -37,7 +39,7 @@ import {
   GraphQL,
   firebase,
   googlecloud,
-} from "../assets/icons";
+} from "../assets/icons"
 
 export const skills = [
   {
@@ -142,7 +144,7 @@ export const skills = [
     name: "TypeScript",
     type: "Frontend",
   },
-];
+]
 
 export const experiences = [
   {
@@ -184,7 +186,7 @@ export const experiences = [
     company_name: "Kravin, Mayash Foundation",
     icon: mayash,
     iconBg: "#b7e4c7",
-    date: "April 2022 - current",
+    date: "April 2022 - Present",
     points: [
       "Shopping app: Shopping app as per figma design using NextJS,PayloadCMS and stripe.",
       "Kravin: Added several features using graphQL in react",
@@ -192,20 +194,22 @@ export const experiences = [
       "Worked with different teams, made end to end applications or added features as per requirements",
     ],
   },
-  //   {
-  //     title: "Full stack Developer",
-  //     company_name: "Meta",
-  //     icon: meta,
-  //     iconBg: "#a2d2ff",
-  //     date: "Jan 2023 - Present",
-  //     points: [
-  //       "Developing and maintaining web applications using React.js and other related technologies.",
-  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //       "Implementing responsive design and ensuring cross-browser compatibility.",
-  //       "Participating in code reviews and providing constructive feedback to other developers.",
-  //     ],
-  //   },
-];
+  {
+    title: "Full stack Developer",
+    company_name: "SpanSystems",
+    icon: span,
+    iconBg: "#a2d2ff",
+    date: "Sept 2024 - Present",
+    points: [
+      "Working with python FastAPI and OpenCV for scanning QR codes, barcodes and text",
+      "Interfacing machine vision cameras and scanners",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+]
 
 export const socialLinks = [
   {
@@ -223,16 +227,24 @@ export const socialLinks = [
     iconUrl: linkedin,
     link: "https://www.linkedin.com/in/raj-panchal-4a0717194/",
   },
-];
+]
 
 export const projects = [
   {
     iconUrl: pricewise,
     theme: "btn-back-red",
-    name: "Shopping application for Laundry service",
+    name: "Gen AI powered T-shirt customization and 3D view",
     description:
-      "Developed a web app for booking laundry for varigated categories of clothing",
-    link: "https://103dcs.gosolutions.sg/",
+      "Integrated AI Image Generation using Flux AI API and hugging-face; 3D view of the t-shirt with the AI-generated image applied to the t-shirt as well as animations",
+    link: "https://binarycombinatrix.github.io/Dream-Wear/",
+  },
+  {
+    iconUrl: food,
+    theme: "btn-back-yellow",
+    name: "Food ordering and a Food social media",
+    description:
+      "Integration with the Google Maps API; Integration with AWS services - DynamoDB and Lambda functions",
+    link: "https://www.kravein.com.au/",
   },
   {
     iconUrl: threads,
@@ -242,6 +254,7 @@ export const projects = [
       "Developed saloon booking site with group bookings and made a cross platform mobile app with React-Native",
     link: "https://theeyebrowcity.gosolutions.sg/",
   },
+
   {
     iconUrl: hengyoon,
     theme: "btn-back-blue",
@@ -250,19 +263,19 @@ export const projects = [
     link: "https://hengyoon.gosolutions.sg/",
   },
   {
+    iconUrl: snapgram,
+    theme: "btn-back-pink",
+    name: "TruthTube - video sharing social media",
+    description:
+      "Upload videos to AWS S3 bucket, AWS DynamoDB for database-single table design pattern, AWS Amplify Gen2, Next.js Static Site Generation & SSR",
+    link: "https://main.d2j2sjrvhdfckf.amplifyapp.com/",
+  },
+  {
     iconUrl: summiz,
     theme: "btn-back-yellow",
     name: "Tech shopping site with AI chatbot",
     description: "Developed a shopping site as per client requirements",
     link: "https://github.com/binarycombinatrix/multisys",
-  },
-  {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Full Stack Instagram Clone",
-    description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://github.com/zenoscode/instaclone",
   },
   {
     iconUrl: estate,
@@ -280,4 +293,4 @@ export const projects = [
   //       "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
   //     link: "https://github.com/adrianhajdin/project_ai_summarizer",
   //   },
-];
+]
